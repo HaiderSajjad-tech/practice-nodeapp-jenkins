@@ -5,6 +5,6 @@ var http = require('http');
 http.createServer(function (req, res) {
     // write the response and send it to the client
     res.writeHead(200, {'Content-Type': 'text/html'}); 
-    res.write(' NO Succes');
+    res.write('Deployment Succeeded');
     res.end();
 }).listen(9051);
